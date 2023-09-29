@@ -1,0 +1,54 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.chat_details_profile_container {
+    margin-bottom: 24px;
+    width : 100%;
+    color : $nav-icons-color;
+    padding : 25px;
+    background-color : rgba(#000, 0.2);
+}
+
+.chat_details_profile_picture_container {
+    height : 200px;
+    margin-bottom: 20px;
+}
+
+.chat_details_profile_picture {
+    height : 200px;
+    width : 200px;
+    border-radius : 50%;
+    position : relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+        cursor : pointer;
+    }
+}
+
+.chat_details_profile_picture_picture {
+    width: 40px;
+    height: 40px;
+    border-radius : 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chat_details_profile_name {
+    height : 28px;
+    padding : 5px;
+    font-size : 1.2rem;
+}
+
+.chat_details_profile_code {
+    height : 28px;
+    padding : 5px;
+    font-size : 1.1rem;
+}
+
+.chat_details_profile_item {
+    width : 100%;
+}

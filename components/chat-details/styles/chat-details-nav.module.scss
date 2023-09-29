@@ -1,0 +1,24 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.chat_details_nav_container {
+    background : $nav-background-dark;
+    color : $nav-icons-color;
+    height : 59px;
+    width : 100%;
+    padding : 0 10px 0 10px;
+}
+
+.chat_details_nav_item {
+    height : 59px;
+}
+
+.chat_details_nav_item_close {
+    width : 15%;
+    cursor : pointer;
+}
+
+.chat_details_nav_item_title {
+    width : 85%;
+    font-size : 1.1rem;
+}

@@ -1,0 +1,43 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.new_room_form {
+    position: absolute;
+    top : 59px;
+    right : 10px;
+    transform-origin: top right;
+    transition: all 0.2s ease-in-out;
+    z-index : 50;
+}
+
+.new_room_form_item {
+    background-color: $nav-background-dark;
+    color : $nav-icons-color;
+    width : 290px;
+}
+
+.new_room_form_item_input_input {
+    outline : 0;
+    border : 0;
+    background : rgba(#fff, 0.1);
+    height : 35px;
+    border-radius: 50px;
+    padding : 10px;
+    color : $nav-icons-color;
+}
+
+.new_room_form_item_submit_button {
+    background : $teal-green-light;
+    outline : 0;
+    border : 0;
+    padding : 5px;
+    border-radius: 10px;
+}
+
+.close {
+    transform: scale(0,0);
+}
+
+.open {
+    transform: scale(1,1);
+}

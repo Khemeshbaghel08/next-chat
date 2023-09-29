@@ -1,0 +1,15 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.chats_container {
+    height : 100%;
+    width : 40%;
+    min-width : 300px;
+    position: relative;
+}
+
+@media (max-width: 599px) {
+    .chats_container {
+        width: 100%;
+    }
+}

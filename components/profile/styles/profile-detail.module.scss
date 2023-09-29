@@ -1,0 +1,35 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.profile_detail_container {
+    margin-bottom : 30px;
+    border-bottom : 3px solid rgba(0,0,0,0.1);
+}
+
+.profile_detail_label {
+    color : $teal-green-light;
+    font-size : 0.9rem;
+    width : 80%;
+}
+
+.profile_detail {
+    width : 80%;
+    color : $profile-settings-text;
+    margin : 20px 0 20px 0;
+}
+
+.profile_detail_detail {
+    width : 90%;
+    height : 100%;
+    outline : 0;
+}
+
+.profile_detail_edit {
+    width : 10%;
+    height : 100%;
+    cursor: pointer;
+}
+
+.profile_detail_editing {
+    border-bottom: 2px solid $teal-green-light;
+}

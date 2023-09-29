@@ -1,0 +1,31 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.profile_picture_settings_container {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    z-index : 60;
+    transform-origin: top left;
+
+    transition : all 0.2s ease;
+}
+
+.open {
+    transform: scale(1,1);
+}
+
+.close {
+    transform: scale(0,0);
+}
+
+.profile_picture_setting {
+    background-color: $nav-background-dark;
+    color : $nav-icons-color;
+    width : 140px;
+
+    &:hover {
+        background-color: $dropdown-hover-dark;
+        cursor : pointer;
+    }
+}

@@ -1,0 +1,27 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.profile_settings_container {
+    position: absolute;
+    z-index : 50;
+    top : 0;
+    left : 0;
+    background-color: $home-background-dark;
+    transform-origin: left;
+
+    transition : all 0.2s ease-in;
+}
+
+.open {
+    transform : translateX(0);
+}
+
+.close {
+    transform : translateX(-100%);
+}
+
+.profile_settings {
+    height : calc(100% - 108px);
+    overflow : auto;
+    border-right: 2px solid $border-dark;
+}

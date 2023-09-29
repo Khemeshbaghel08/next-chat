@@ -1,0 +1,48 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.new_member_form_container {
+    position : absolute;
+    top : 60px;
+    right : 10px;
+    transform-origin: top right;
+    z-index : 50;
+    width: 300px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.close {
+    transform: scale(0,0);
+}
+
+.open {
+    transform: scale(1,1);
+}
+
+.new_member_form_item {
+    color : $nav-icons-color;
+    background-color : $nav-background-dark;
+    width : 100%;
+    padding : 10px;
+}
+
+.new_member_form_input {
+    outline : 0;
+    border : 0;
+    background : rgba(#fff, 0.1);
+    height : 35px;
+    width : 90%;
+    border-radius: 50px;
+    padding : 10px;
+    color : $nav-icons-color;
+}
+
+.new_member_form_submit {
+    outline : 0;
+    border : 0;
+    border-radius : 10px;
+    padding : 5px;
+    width : 40%;
+    background-color: $teal-green-light;
+}

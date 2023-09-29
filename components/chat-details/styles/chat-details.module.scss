@@ -1,0 +1,20 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.chat_details_container {
+    position: absolute;
+    z-index : 50;
+    top : 0;
+    background-color: $home-background-dark;
+    transform-origin: right;
+
+    transition : all 0.2s ease-in-out;
+}
+
+.open {
+    transform : scaleX(1);
+}
+
+.close {
+    transform : scaleX(0);
+}

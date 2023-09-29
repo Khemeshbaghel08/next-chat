@@ -1,0 +1,17 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.profile_picture_container {
+    height : 200px;
+    margin-top : 30px;
+    margin-bottom : 30px;
+}
+
+.profile_picture {
+    height : 200px;
+    width : 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position : relative;
+}

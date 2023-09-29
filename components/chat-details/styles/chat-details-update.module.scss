@@ -1,0 +1,36 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.chat_details_update_container {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform-origin: top left;
+    z-index : 60;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.close {
+    transform: scale(0,0);
+}
+
+.open {
+    transform: scale(1,1);
+}
+
+.chat_details_update_item {
+    width : 140px;
+    background-color : $nav-background-dark;
+    color : $nav-icons-color;
+    padding : 10px;
+
+    &:hover {
+        cursor : pointer;
+        background : $dropdown-hover-dark;
+    }
+}
+
+.chat_details_update_item_picture {
+    display: none;
+}

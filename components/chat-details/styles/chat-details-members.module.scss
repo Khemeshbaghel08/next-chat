@@ -1,0 +1,46 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.chat_details_members_container {
+    width : 100%;
+}
+
+.chat_details_members_member {
+    width : 100%;
+    height : 72px;
+    border-bottom : 1px solid $border-dark;
+    color : $nav-icons-color;
+    background-color : rgba(#000, 0.2);
+
+    &:hover {
+        background-color : $nav-background-dark;
+    }
+}
+
+.chat_details_members_member_picture {
+    height : 72px;
+    width : 20%;
+}
+
+.chat_details_members_member_picture_picture {
+    height: 40px;
+    width: 40px;
+    border-radius : 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.chat_details_members_member_details {
+    height : 72px;
+    width : 70%;
+}
+
+.chat_details_members_member_dropdown {
+    height : 72px;
+    width : 10%;
+
+    &:hover {
+        cursor : pointer;
+    }
+}
+
